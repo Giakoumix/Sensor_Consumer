@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-WorkerService1-682314fd-bc9e-41b3-8b02-38396829189c</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="InfluxDB.Client" Version="4.19.0-dev.15190" />
+        <PackageReference Include="InfluxDB.Client.Linq" Version="4.19.0-dev.15190" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.2"/>
+        <PackageReference Include="MQTTnet" Version="5.0.1.1416" />
+    </ItemGroup>
+</Project>
