@@ -51,7 +51,7 @@ public class Worker : BackgroundService
                 await Task.Delay(1000, stoppingToken);
             }
         }
-        catch (Exception ex)
+        catch (Exception ex) 
         {
             _logger.LogError(ex, "An error occured");
         } 
